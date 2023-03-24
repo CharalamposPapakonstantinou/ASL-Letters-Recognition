@@ -204,27 +204,6 @@ def draw_hand(img, results,id):
         # print(L)
     return img,L
 
-def maximizesafari():
-    os.system("open /Applications/Safari.app")
-
-def minimizesafari():
-    os.system("open /Applications/Safari.app")
-    pyautogui.hotkey('command', 'h')
-
-def actions(signal):
-    global winmax
-    thresh=3
-    templist=signal[-thresh:] # get the last 3 elements
-
-    if templist.count(0) == thresh and winmax==0:
-        maximizesafari()
-        winmax = 1
-        # time.sleep(.5)
-    elif templist.count(1) == thresh and winmax == 1:
-        minimizesafari()
-        winmax = 0
-        # time.sleep(0.5)
-
 
 def phrase(lst):
     result = ""
@@ -302,7 +281,6 @@ while True:
     # if len(signal) >= 50: signal = []
 
 
-    # actions(signal)
 
 
     # Displaying the output
