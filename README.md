@@ -7,5 +7,5 @@ The code is structured in three sections:
   The second is referring to the RFC model (Training and Confusion Matrix Visualization).
   The third is used for capturing frames from the webcam and making the prediction for each gesture.
 
-# RUN
+## RUN
 To run the code in MacOS you will probably need to run throught terminal or run pycharm through anaconda in order to have access to the webcam.
