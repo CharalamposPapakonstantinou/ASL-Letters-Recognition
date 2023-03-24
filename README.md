@@ -3,8 +3,11 @@
 Required: CV2, Pandas, Mediapipe, Numpy
 
 The code is structured in three sections:
+  
   The first is used to derive the training/test data. (The existing data can already be used for training the RFC).
+  
   The second is referring to the RFC model (Training and Confusion Matrix Visualization).
+  
   The third is used for capturing frames from the webcam and making the prediction for each gesture.
 
 ## RUN
